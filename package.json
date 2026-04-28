@@ -16,11 +16,11 @@
     "@hono/node-server": "^1.13.7",
     "bcryptjs": "^2.4.3",
     "hono": "^4.6.13",
-    "jose": "^5.9.6"
+    "jose": "^5.9.6",
+    "typescript": "^5.7.2"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+    "tsx": "^4.19.2"
   }
 }
