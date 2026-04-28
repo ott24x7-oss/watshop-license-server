@@ -138,7 +138,7 @@ adminRoutes.get("/licenses", (c) => {
 	const q = c.req.query("q")?.trim() ?? "";
 	const status = c.req.query("status") ?? "";
 	const filters: string[] = [];
-	const params: unknown[] = [];
+	const params: string[] = [];
 	if (q) {
 		filters.push("(l.key LIKE ? OR l.customer_email LIKE ? OR l.customer_name LIKE ?)");
 		params.push(`%${q}%`, `%${q}%`, `%${q}%`);
